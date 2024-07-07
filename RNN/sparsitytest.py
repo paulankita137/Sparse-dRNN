@@ -32,10 +32,10 @@ sparse_fullforce_test(dt=0.001,showplots=1);
 
 
 
-import fffdemononankita
+import sparsityRNN
 #%load_ext line_profiler
 
-p = fffdemononankita.create_parameters(dt=0.001)
+p = sparsityRNN.create_parameters(dt=0.001)
 p['g'] = 1.5 # From paper
 p['ff_num_batches'] = 2
 p['ff_trials_per_batch'] = 2
@@ -44,12 +44,9 @@ p['init_act_scale'] = 0.1
 p['network_size'] = 200
 p['noise_std'] = np.sqrt(2*p['dt'])
 
-rnn = fffdemononankita.differentialRNN(p,1,1)
+rnn = sparsityRNN.differentialRNN(p,1,1)
 
 rnn.train(sparse_fullforce_test, monitor_training=1)
-
-#With line_profiler:
-# %lprun -f rnn.train rnn.train(fullforce_oscillation_test, monitor_training=1)
 
 
 rnn.test(sparse_fullforce_test)

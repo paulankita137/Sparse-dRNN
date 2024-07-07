@@ -24,3 +24,6 @@ differential recurrent network training least-squares methods.
 This is a publicly available repository under development to implement sparsity aware learning  in feedback driven differential recurrent neural networks. 
 
 Please contact ankita.paul@drexel.edu for questions regarding the theory, implementation or suggestions that need to be addressed. 
+
+![Figure 2024-07-07 181057](https://github.com/paulankita137/Sparse-dRNN/assets/53861279/ddb51900-cabc-4ea4-8198-246ec7ab3b23)
+

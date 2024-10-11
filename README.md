@@ -25,5 +25,12 @@ This is a publicly available repository under development to implement sparsity 
 
 Please contact ankita.paul@drexel.edu for questions regarding the theory, implementation or suggestions on code implementation and bugs that need to be addressed. 
 
+If you use this work please cite us :
+
+Paper link : https://link.springer.com/chapter/10.1007/978-3-031-72341-4_4
+
+Citation: Paul, A., Das, A. (2024). Sparsity Aware Learning in Feedback-Driven Differential Recurrent Neural Networks. In: Wand, M., Malinovská, K., Schmidhuber, J., Tetko, I.V. (eds) Artificial Neural Networks and Machine Learning – ICANN 2024. ICANN 2024. Lecture Notes in Computer Science, vol 15019. Springer, Cham. https://doi.org/10.1007/978-3-031-72341-4_4
+
+
 ![Figure 2024-07-07 181057](https://github.com/paulankita137/Sparse-dRNN/assets/53861279/ddb51900-cabc-4ea4-8198-246ec7ab3b23)
 
